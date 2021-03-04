@@ -173,7 +173,7 @@ body{
 }
 
 .cursor.nav-active{
-    color: rgb(86, 124, 228);
+    background: rgb(86, 124, 228);
     transform: scale(3);
 }
 

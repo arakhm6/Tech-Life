@@ -1,6 +1,7 @@
 let controller;
 let slideScene;
 let pageScene;
+let mouse;
 
 function animateSlides()
 {
@@ -48,7 +49,7 @@ function animateSlides()
 }
 
 function cursor(e){
-    let mouse = document.querySelector('.cursor');
+    mouse = document.querySelector('.cursor');
     let mouseTxt = mouse.querySelector('span');
     mouse.style.top = e.pageY + 'px';
     mouse.style.left = e.pageX + 'px';
